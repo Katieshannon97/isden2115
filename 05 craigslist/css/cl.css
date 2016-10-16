@@ -251,7 +251,7 @@ legend {
 }
 
 #pagecontainer > header {
-    margin-bottom: 1em;
+    margin-bottom: 1.5em;
     border-bottom: 1px #ccc solid
 }
 
@@ -544,11 +544,13 @@ h4 .star {
 
 .posting .postingtitle {
     font-family: helvetica, sans-serif;
-    font-size:25px;
+    font-size:30px;
     font-weight: normal;
     line-height: 1.4em;
     margin: 10px 0;
-    clear: left
+    clear: left;
+    padding-bottom: 30px;
+    padding-top: 30px;
 }
 
 .posting .postingtitle .star {
@@ -1967,7 +1969,11 @@ label.disabled {
     border: 1px solid;
     color: cornflowerblue;
     padding: 0 0 5px 0;
-    margin: auto
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .toc #mapcontainer {
