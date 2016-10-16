@@ -1277,7 +1277,7 @@ a.showcontact:hover {
 
 .toc a:hover {
     text-decoration: underline;
-    color: darkorange;
+    color: #228C6B;
 }
 
 .toc #messagetable #messages {
@@ -2124,7 +2124,12 @@ label.disabled {
 }
 
 .toc.search .row .date {
-    display: inline
+    display: inline;
+    color: #696666;
+    font-family: helvetica;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 11px;
 }
 
 .toc #mapcontainer .date:after, .toc .l2 .price {
