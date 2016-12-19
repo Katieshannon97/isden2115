@@ -1,0 +1,26 @@
+/*
+header, nav, footer, div{
+    border: solid red 2px;
+}
+*/
+
+body{
+   font-family: helvetica
+}
+
+nav #primary_nav ul{
+    list-style-type: none;
+    
+}
+
+section{
+    overflow-x: scroll
+}
+
+section img.float_left_image{
+    float:left;
+}
+
+footer{
+clear:both;
+}
