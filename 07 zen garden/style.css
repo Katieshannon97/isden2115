@@ -16,34 +16,44 @@ html {
 body { 
 	font: 75% helvetica, sans-serif;
 	line-height: 1.88889;
-	color: #555753; 
+	color: black; 
 	background: #fff; 
-	margin: 0; 
+	margin: 0px; 
 	padding: 0;
+    background-image: url(background%20image%20css%20zen%20garden.jpg);
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode:overlay
 	}
+
 p { 
 	margin-top: 0; 
+    
 	}
 h3 { 
 	font: 1.6em helvetica;
 	letter-spacing: 1px; 
 	margin-bottom: 0; 
-	color: #607d8b;
+	color: #175979;
     text-decoration: none;
+    margin-top: 10px;
+   
+    
 	}
 a:link { 
 	font-weight: 600; 
 	text-decoration: none; 
-	color: #535f65;
+	color: #175979;
 	}
 a:visited { 
 	font-weight: bold; 
 	text-decoration: none; 
-	color: #555753;
+	color: #175979;
 	}
 a:hover, a:focus, a:active { 
-	text-decoration: underline; 
-	color: #9685BA;
+	text-decoration: none; 
+	color: #2d779a;
 	}
 abbr {
 	border-bottom: none;
@@ -54,7 +64,6 @@ abbr {
 .page-wrapper { 
 	padding: 0 160px 0 30px;  
 	margin: 0; 
-	position: relative;
 	}
 
 .intro { 
@@ -63,29 +72,15 @@ abbr {
 	}
 
 header h1 { 
-	font-family: helvetica;
-    font-size: 20pt;
-	margin-top: 10px;
-	display: block;
-	width: 219px;
-	height: 87px;
-	float: left;
-	text-indent: 100%;
-	overflow: hidden;
+    text-align: center;
+    font-size:2.3em;
+    margin-bottom: 0;
 	}
 header h2 { 
-	margin-top: 58px; 
-	margin-bottom: 40px;  
-	float: right;
-	white-space: nowrap;
-	overflow: hidden;
-    color:#607d8b;
+    text-align: center;
+    color:#175979;
     font-weight: 400;
 	}
-header {
-	padding-top: 20px;
-	height: 87px;
-}
 
 .summary {
 	clear: both; 
@@ -94,13 +89,13 @@ header {
 	float: left;
 	}
 .summary p {
-	font: italic 1.1em/2.2 georgia; 
 	text-align: center;
+    font-size:1.3em;
 	}
 
 .preamble {
-	clear: right; 
-	padding: 0px 10px 0 10px;
+    margin-left: 5px;
+                
 	}
 .supporting {	
 	padding-left: 10px; 
@@ -119,6 +114,8 @@ footer a:link, footer a:visited {
 	position: absolute; 
 	top: 0; 
 	right: 0;
+    margin-right: 0px;
+  
 	}
 .sidebar .wrapper { 
 	font: 10px verdana, sans-serif; 
@@ -128,6 +125,7 @@ footer a:link, footer a:visited {
 	width: 130px; 
     border: solid;
     color: 607d8b;
+    position:relative;
 	}
 .sidebar h3.select { 
 	margin: 10px 0 5px 0; 
@@ -167,12 +165,8 @@ footer a:link, footer a:visited {
 .sidebar li a:visited {
 	color: #555753;
 	}
+.summary{
+    float: right;
+   
+}
 
-
-.extra1 {
-	position: absolute; 
-	top: 40px; 
-	right: 0; 
-	width: 148px; 
-	height: 110px;
-	}
